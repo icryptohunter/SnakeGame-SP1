@@ -194,10 +194,7 @@ const verifyScore = async (gameState, score) => {
               <div className="flex items-start gap-2">
                 <Cpu size={16} className="text-purple-500 mt-1" />
                 <div>
-                  <p className="font-bold text-purple-500 dark:text-purple-400">Technical Implementation</p>
-                  <p className="text-sm mt-1">
-                    Our hybrid approach combines WebAssembly's performance with cryptographic verification techniques. The Rust code is compiled to WebAssembly, providing a secure and fast verification system that runs entirely in your browser. This ensures both the integrity of your scores and the privacy of your gameplay data.
-                  </p>
+                  
                 </div>
               </div>
             </div>
