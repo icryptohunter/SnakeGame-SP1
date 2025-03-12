@@ -1,0 +1,13 @@
+[package]
+name = "snake-wasm"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.90"
+js-sys = "0.3.67"
+web-sys = { version = "0.3.67", features = ["console"] }
+console_error_panic_hook = "0.1.7"
